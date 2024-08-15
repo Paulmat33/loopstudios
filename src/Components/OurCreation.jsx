@@ -10,7 +10,10 @@ import Group8 from "../assets/Group-8.png";
 
 const OurCreation = () => {
   return (
-    <section className="mt-[96px] mx-[24px] space-y-6">
+    <section className="mt-[96px] mx-[24px] space-y-6 flex flex-col justify-center">
+      <div>
+        <h1 className="font-josefinSans font-light text-[32px] leading-[32px] text-center text-black pb-[48px] ">OUR CREATIONS</h1>
+      </div>
       <img src={Group1} alt="group1" />
       <img src={Group2} alt="group2" />
       <img src={Group3} alt="group3" />
